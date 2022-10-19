@@ -3,7 +3,7 @@ import buysellstock
 import buysellstock_arr
 
 class TestProblem1(unittest.TestCase):
-    def test_multiples_of_3_5(self):
+    def test_buySellStock(self):
         # Provided Examples
         self.assertEqual(buysellstock.maxProfit([7,1,5,3,6,4]),5)
         self.assertEqual(buysellstock.maxProfit([7,6,4,3,1]),0)
