@@ -2,8 +2,8 @@ import unittest
 import twosum
 import twosum_arr
 
-class TestProblem1(unittest.TestCase):
-    def test_multiples_of_3_5(self):
+class TestTwoSum(unittest.TestCase):
+    def test_twoSum(self):
         # Provided Examples
         self.assertEqual(twosum.twoSum([2,7,11,15], 9),[0,1])
         self.assertEqual(twosum.twoSum([3,2,4], 6),[1,2])
