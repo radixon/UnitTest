@@ -8,4 +8,8 @@ You may assume that each input would have exactly one solution, and you may not 
 
 You are given an array prices where prices[i] is the price of a given stock on the ith day.  You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
  <br /><br />   
-Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
+Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0. <br />
+
+# Contains Duplicate [Array]
+
+Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct. <br />
