@@ -23,3 +23,9 @@ The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit int
 
 Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum. <br />
 A subarray is a contiguous part of an array. <br />
+
+# Maximum Product Subarray
+
+Given an integer array nums, find a contiguous non-empty subarray within the array that has the largest product, and return the product. <br />
+The test cases are generated so that the answer will fit in a 32-bit integer.
+A subarray is a contiguous subsequence of the array. <br />
