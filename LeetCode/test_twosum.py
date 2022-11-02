@@ -13,7 +13,7 @@ class TestTwoSum(unittest.TestCase):
         self.assertEqual(twosum.twoSum(twosum_arr.edge0, 13),[0,3])
 
         # Edge Case with beginning and end of array as part of the sum
-        self.assertEqual(twosum.twoSum(twosum_arr.edge1, 265),[0,8])
+        self.assertEqual(twosum.twoSum(twosum_arr.edge1, 265),[6,8])
 
         # Edge Case with negative number
         self.assertEqual(twosum.twoSum(twosum_arr.edge2, 2),[2,5])
@@ -22,10 +22,10 @@ class TestTwoSum(unittest.TestCase):
         self.assertEqual(twosum.twoSum(twosum_arr.edge3, 216),[3,7])
 
         # Edge Case of two answers available
-        self.assertEqual(twosum.twoSum(twosum_arr.edge4, 340),[3,7])
+        self.assertEqual(twosum.twoSum(twosum_arr.edge4, 340),[4,5])
 
         # Random Generated Arrays
-        self.assertEqual(twosum.twoSum(twosum_arr.num0, 132),[0,57])
+        self.assertEqual(twosum.twoSum(twosum_arr.num0, 132),[18,28])
         self.assertEqual(twosum.twoSum(twosum_arr.num1, 325),[32,39])
         self.assertEqual(twosum.twoSum(twosum_arr.num2, 1218),[4,29])
         self.assertEqual(twosum.twoSum(twosum_arr.num3, 6651),[10,73])
