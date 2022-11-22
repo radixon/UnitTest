@@ -4,9 +4,9 @@ def containsDuplicate(nums):
     and return false if every element is distinct.
     """
 
-    dp = set()
+    detector = set()
     for value in nums:
-        if value in dp:
+        if value in detector:
             return True
-        dp.add(value)
+        detector.add(value)
     return False

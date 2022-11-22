@@ -9,7 +9,8 @@ def maxProfit(prices):
     ans = 0
     subarray = float('inf')
     for value in prices:
-        subarray = min(value,subarray)
+        if value < subarray:
+            subarray = value
         ans = max(value-subarray,ans)
     
     return ans
