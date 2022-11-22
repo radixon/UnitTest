@@ -27,9 +27,14 @@ A subarray is a contiguous part of an array. <br />
 # Maximum Product Subarray
 
 Given an integer array nums, find a contiguous non-empty subarray within the array that has the largest product, and return the product. <br />
-The test cases are generated so that the answer will fit in a 32-bit integer.
-<<<<<<< HEAD
-A subarray is a contiguous subsequence of the array. <br />
-=======
-A subarray is a contiguous subsequence of the array. <br />
->>>>>>> 99d3d23dc7aff661464eb793fb2c3d07b9b2311c
+The test cases are generated so that the answer will fit in a 32-bit integer. <br />
+
+# Minimum in a Rotated Sorted Array
+
+Suppose an array of length n sorted in ascending order is rotated between 1 and n times. Given the sorted rotated array nums of unique elements, return the minimum element of this array. <br /> <br />
+
+You must write an algorithm that runs in O(log n) time. <br />
+
+To solve this problem use the two pointer algorithm and the binary search algorithm.
+
+
