@@ -1,8 +1,8 @@
 # TwoSum <br />
 
-Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. <br />
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.  You may assume that each input would have exactly one solution, and you may not use the same element twice. <br />
 <br />
-You may assume that each input would have exactly one solution, and you may not use the same element twice. <br />
+To solve this problem in O(n) time, sort the array and use the two pointer algorithm or use a hash table to store values.  Note hash tables are called dictionaries in Python.  Hash tables having O(1) lookup for average and amoritized cases.  See section 5.5 Dictionaries of Python documentation, docs.python.org. <br />
 
 # Best Day to Buy and Sell Stock
 
