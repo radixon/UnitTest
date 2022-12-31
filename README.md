@@ -16,6 +16,12 @@ The tests are generated such that there is exactly one solution. You may not use
 
 Your solution must use only constant extra space. <br/ >
 
+# 3Sum
+
+Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0. <br />
+
+Notice that the solution set must not contain duplicate triplets. <br />
+
 # Best Day to Buy and Sell Stock
 
 You are given an array prices where prices[i] is the price of a given stock on the ith day.  You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
