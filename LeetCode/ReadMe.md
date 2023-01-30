@@ -30,10 +30,19 @@ To solve this problem, sort the array and use the two pointer technique.  Sortin
 
 <br />
 
-# Minimum in a Rotated Sorted Array
+# Find Minimum in Rotated Sorted Array
 
  <br />
 
+# Find Minimum in Rotated Sorted Array II
 
+ <br />
 
+# Search in Rotated Sorted Array
+
+ <br />
+ 
+ # Search in Rotated Sorted Array II
+
+ <br />
 
