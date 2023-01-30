@@ -47,14 +47,47 @@ A subarray is a contiguous part of an array. <br />
 Given an integer array nums, find a contiguous non-empty subarray within the array that has the largest product, and return the product. <br />
 The test cases are generated so that the answer will fit in a 32-bit integer. <br />
 
-# Minimum in a Rotated Sorted Array
+# Find Minimum in Rotated Sorted Array
 
-Suppose an array of length n sorted in ascending order is rotated between 1 and n times. Given the sorted rotated array nums of unique elements, return the minimum element of this array. <br /> <br />
+Suppose an array of length n sorted in ascending order is rotated between 1 and n times. For example, the array nums = [0,1,2,4,5,6,7] might become: <br />
+
+..* [4,5,6,7,0,1,2] if it was rotated 4 times.
+..* [0,1,2,4,5,6,7] if it was rotated 7 times.
+Notice that rotating an array [a[0], a[1], a[2], ..., a[n-1]] 1 time results in the array [a[n-1], a[0], a[1], a[2], ..., a[n-2]]. <br />
+
+Given the sorted rotated array nums of unique elements, return the minimum element of this array. <br />
 
 You must write an algorithm that runs in O(log n) time. <br />
 
-To solve this problem use the two pointer algorithm and the binary search algorithm. <br />
+# Find Minimum in Rotated Sorted Array II
 
+Suppose an array of length n sorted in ascending order is rotated between 1 and n times. For example, the array nums = [0,1,4,4,5,6,7] might become: <br />
 
+..* [4,5,6,7,0,1,4] if it was rotated 4 times.
+..* [0,1,4,4,5,6,7] if it was rotated 7 times.
+Notice that rotating an array [a[0], a[1], a[2], ..., a[n-1]] 1 time results in the array [a[n-1], a[0], a[1], a[2], ..., a[n-2]]. <br />
 
+Given the sorted rotated array nums that may contain duplicates, return the minimum element of this array. <br />
+
+You must decrease the overall operation steps as much as possible. <br />
+
+# Search in Rotated Sorted Array
+
+There is an integer array nums sorted in ascending order (with distinct values). <br />
+
+Prior to being passed to your function, nums is possibly rotated at an unknown pivot index k (1 <= k < nums.length) such that the resulting array is [nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]] (0-indexed). For example, [0,1,2,4,5,6,7] might be rotated at pivot index 3 and become [4,5,6,7,0,1,2]. <br />
+
+Given the array nums after the possible rotation and an integer target, return the index of target if it is in nums, or -1 if it is not in nums. <br />
+
+You must write an algorithm with O(log n) runtime complexity. <br />
+
+# Search in Rotated Sorted Array II
+
+There is an integer array nums sorted in non-decreasing order (not necessarily with distinct values). <br />
+
+Before being passed to your function, nums is rotated at an unknown pivot index k (0 <= k < nums.length) such that the resulting array is [nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]] (0-indexed). For example, [0,1,2,4,4,4,5,6,6,7] might be rotated at pivot index 5 and become [4,5,6,6,7,0,1,2,4,4]. <br />
+
+Given the array nums after the rotation and an integer target, return true if target is in nums, or false if it is not in nums. <br />
+
+You must decrease the overall operation steps as much as possible. <br />
 
