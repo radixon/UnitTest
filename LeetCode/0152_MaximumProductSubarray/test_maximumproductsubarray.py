@@ -2,7 +2,7 @@ import unittest
 import maximumproductsubarray
 import maximumproductsubarray_arr
 
-class TestProductOfArray(unittest.TestCase):
+class TestMaxProductSubarray(unittest.TestCase):
     def test_maxProduct(self):
         # Provided Examples
         self.assertEqual(maximumproductsubarray.maxProduct(maximumproductsubarray_arr.test1),6)
