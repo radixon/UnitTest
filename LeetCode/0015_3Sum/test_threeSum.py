@@ -2,8 +2,8 @@ import unittest
 import threeSum
 import threeSum_arr
 
-class TestTwoSum(unittest.TestCase):
-    def test_twoSum(self):
+class TestThreeSum(unittest.TestCase):
+    def test_threeSum(self):
         # Provided Examples
         self.assertEqual(threeSum.threeSum(threeSum_arr.test1),threeSum_arr.result1)
         self.assertEqual(threeSum.threeSum(threeSum_arr.test2),threeSum_arr.result2)
