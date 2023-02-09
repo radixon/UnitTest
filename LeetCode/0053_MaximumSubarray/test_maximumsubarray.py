@@ -2,8 +2,8 @@ import unittest
 import maximumsubarray
 import maximumsubarray_arr
 
-class TestProductOfArray(unittest.TestCase):
-    def test_maxSubArray(self):
+class TestMaxSubarray(unittest.TestCase):
+    def test_maxSubarray(self):
         # Provided Examples
         self.assertEqual(maximumsubarray.maxSubArray(maximumsubarray_arr.test1),6)
         self.assertEqual(maximumsubarray.maxSubArray(maximumsubarray_arr.test2),1)
