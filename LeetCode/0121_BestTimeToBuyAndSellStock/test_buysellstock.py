@@ -2,7 +2,7 @@ import unittest
 import buysellstock
 import buysellstock_arr
 
-class TestProblem1(unittest.TestCase):
+class TestBuySellStock(unittest.TestCase):
     def test_buySellStock(self):
         # Provided Examples
         self.assertEqual(buysellstock.maxProfit([7,1,5,3,6,4]),5)
