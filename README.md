@@ -91,3 +91,6 @@ Given the array nums after the rotation and an integer target, return true if ta
 
 You must decrease the overall operation steps as much as possible. <br />
 
+# Palindrome Number
+
+Given an integer x, return true if x is a palindrome, and false otherwise.
