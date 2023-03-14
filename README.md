@@ -121,3 +121,7 @@ Find all valid combinations of k numbers that sum up to n such that the followin
 * Each number is used at most once.
 
 Return a list of all possible valid combinations. The list must not contain the same combination twice, and the combinations may be returned in any order.
+
+# Trapping Rain Water
+
+Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining.
