@@ -51,6 +51,11 @@ Return true if you can reach the last index, or false otherwise.<br />
 
 Intuition:  The game is looking for a succession of jumps that reaches the end of the array.  There are only two points that matter.  The current index, and the max index of jumps from previous locations.  If the jump from the current index is greater than the max index of previous jumps, update the max index location.  Return true if max index is greater than or equal to the end of the array index before the current index passes the max index; otherwise, return false.<br />
 
+Time Complexity: O(n) <br />
+The worst case is traversing the array once. <br />
+Space Complexity: O(1) <br />
+There is only constant space added within the algorithm. <br />
+
 # Binary Search
 
 ## Binary Search
