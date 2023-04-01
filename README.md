@@ -6,11 +6,14 @@ This repository will explore creating unit test for Python programs.  Problems s
 
 ## Two Sum II - Input Array Is Sorted
 
-Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Return the indices of the two numbers, index1 and index2, added by one as an integer array [index1, index2] of length 2. <br />
+Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Return the indices of the two numbers, index1 and index2, added by one as an integer array [index1, index2] of length 2. The tests are generated such that there is exactly one solution. You may not use the same element twice.  Your solution must use only constant extra space. <br/ >
 
-The tests are generated such that there is exactly one solution. You may not use the same element twice.<br />
+Intuition: There is a pointer at the beginning of the array, and a pointer at the end of the array. If the elements of the two indexes sum to be less than the target, increase the sum by increasing the index at the 'low' end. If the elements of the two indexes sum to be greater than the target, reduce the sum by decreasing the index at the 'high' end. If the sum of the two indexes equals the target, output the two indexes + 1 due to the array being 1-indexed.
 
-Your solution must use only constant extra space. <br/ >
+Time Complexity: O(n) <br />
+The worst case is traversing the array once. <br />
+Space Complexity: O(1) <br />
+There is only constant space added within the algorithm. <br />
 
 ## Container With Most Water
 
@@ -24,10 +27,10 @@ Intuition: We are looking for the rectangle with the greatest area. As such the 
 3. Move the pointer at the lowest height to continue to give the opportunity for max area on the next iteration.
 4. Output the max area found.<br />
 
-Time Complexity: O(n)
+Time Complexity: O(n)<br />
 Each possible area will have to be checked. This requires traversing the entire array once.<br />
 
-Space Complexity: O(1)
+Space Complexity: O(1)<br />
 Constant extra space is used to store the two pointers, and the output.<br />
 
 ## Trapping Rain Water
