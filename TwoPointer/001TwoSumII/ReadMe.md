@@ -12,3 +12,5 @@ Time Complexity: O(n) <br />
 The worst case is traversing the array once. <br />
 Space Complexity: O(1) <br />
 Constant space is used to maintain the pointers to the two pointers. <br />
+
+![twosum_II_test](https://github.com/radixon/UnitTest/assets/59415488/54534cc1-4881-464f-9bb8-28e08397b342)
