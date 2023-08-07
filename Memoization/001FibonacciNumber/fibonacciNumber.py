@@ -8,6 +8,6 @@ class Solution():
 
 
 if __name__ == '__main__':
-    res = Solution()
-    for i in [0,2,4,10,50,100]:
-        print(res.fib(i))
+    ans = Solution()
+    for i in range(8):
+        print(ans.fib(i))
