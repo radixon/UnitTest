@@ -7,6 +7,6 @@ class Solution():
         return self.memo[n]
 
 if __name__ == "__main__":
-    res = Solution()
-    for i in [0,1,2,3,5,8,9]:
-        print(res.climbStairs(i))
+    ans = Solution()
+    for i in range(8):
+        print(ans.climbStairs(i))
