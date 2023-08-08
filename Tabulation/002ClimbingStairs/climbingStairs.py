@@ -1,4 +1,11 @@
 class Solution():
+    """
+    Time Complexity: O(n)
+    The algorithm will loop n times
+
+    Space Complexity: O(1)
+    Constant extra space is used on res, curr, and prev variables.
+    """
     def climbStairs(self,n: int) -> int:
         res, curr = 1, 1
         for i in range(n):
