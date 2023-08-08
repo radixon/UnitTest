@@ -1,4 +1,11 @@
 class Solution():
+    """
+    Time Complexity: O(n)
+    The algorithm traverses the cost array once.
+    
+    Space Complexity: O(1)
+    Constant space is used on the prev, curr, and temp variables
+    """
     def minCostClimbingStairs(self, cost) -> int:
         prev, curr = 0, 0
         for i in range(len(cost)-1):
