@@ -17,20 +17,11 @@ class Solution():
 if __name__ == '__main__':
     from random import randint
     ans = Solution()
-    cost = []
-    for i in range(5):
-        cost.append(randint(0,25))
-    print(cost)
-    print(ans.minCostClimbingStairs(cost))
+    cost = [10,15,20]
+    print(ans.minCostClimbingStairs(cost) == 15)
 
-    cost = []
-    for i in range(10):
-        cost.append(randint(0,50))
-    print(cost)
-    print(ans.minCostClimbingStairs(cost))
+    cost = [1,100,1,1,1,100,1,1,100,1]
+    print(ans.minCostClimbingStairs(cost) == 6)
 
-    cost = []
-    for i in range(15):
-        cost.append(randint(0,100))
-    print(cost)
-    print(ans.minCostClimbingStairs(cost))
+    cost = [10,15,20,30,40,60,80]
+    print(ans.minCostClimbingStairs(cost) == 105)
