@@ -19,7 +19,7 @@ At each iteration the minimum cost has to be calculated.  There are two possible
 * cost[i] + cost[i-2]
 * cost[i+1] + cost[i-1]
 
-Thus the decision is the minimum(cost[i]+twoStepsBehind, cost[i+1]+oneStepBehind).  Due to this being solved iteratively, save twoStepsBehind in a temp variable before updating.
+Thus the decision is the minimum(cost[i]+twoStepsBehind, cost[i+1]+oneStepBehind).  Due to this being solved iteratively, save twoStepsBehind in a temp variable before updating.  This will store the minimum cost to cost[i-2] and to cost[i-1], so at each iteration the algorithm will always be chosing between minimum possible costs.
 
 ## Termination
 
