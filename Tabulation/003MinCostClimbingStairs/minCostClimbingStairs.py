@@ -7,12 +7,12 @@ class Solution():
     Constant space is used on the prev, curr, and temp variables
     """
     def minCostClimbingStairs(self, cost) -> int:
-        prev, curr = 0, 0
+        oneStep, twoStep = 0, 0
         for i in range(len(cost)-1):
-            temp = prev
-            prev = curr
-            curr = min(temp+cost[i],curr+cost[i+1])
-        return curr
+            temp = oneStep
+            oneStep = twoStep
+            twoStep = min(temp+cost[i],twoStep+cost[i+1])
+        return twoStep
 
 if __name__ == '__main__':
     from random import randint
