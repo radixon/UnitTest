@@ -1,10 +1,10 @@
 def search(nums, target):
     """
-    Given an array of integers nums which is sorted in ascending order, 
-    and an integer target, write a function to search target in nums. If 
-    target exists, then return its index. Otherwise, return -1.
-
-    You must write an algorithm with O(log n) runtime complexity
+    Time Complexity: O(log n)
+    The algorithm splits the array in half each iteration.
+    
+    Space Complexity: O(1)
+    Constant extra space is used for variables low, high, and mid.
     """
     low, high = 0, len(nums) - 1
     while low <= high:
