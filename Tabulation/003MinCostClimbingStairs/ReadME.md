@@ -9,15 +9,13 @@ You can either start from the step with index 0, or the step with index 1. Retur
 
 There is a window of fixed size 2.  In each window, find the minimum cost to jump one step past the window.  If there is another cost at the new location, slide the window by an increment of one, and add the minimum cost to arrive at that location to the location cost to know the minimum cost to leave the location.  If there isn't a cost outside the window, return the minimum cost found to reach just outside the location.
 
-![example](https://github.com/radixon/UnitTest/assets/59415488/69e36c82-0b6c-4621-87a3-1e0e169dcae7)
-
+![example](https://github.com/radixon/UnitTest/assets/59415488/f65cc9a2-bc70-4820-84b1-57c04cc7ae8b)
 
 # Loop Invariant
 
 ## Initialization
 
 Before entering the loop, the variables oneStepBehind and twoStepsBehind are intialized to 0.  There is no cost before entering the cost array.  Thus the the algorithm is true prior to the first iteration of the loop.
-
 
 ## Maintenance
 
