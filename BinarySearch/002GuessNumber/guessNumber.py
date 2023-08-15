@@ -1,6 +1,5 @@
 class Solution:
-    def __init__(self,pick = 1):
-        from random import randint
+    def __init__(self,pick = 0):
         self.pick = pick
 
     def guessNumber(self, n: int) -> int:
