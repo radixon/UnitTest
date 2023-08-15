@@ -6,6 +6,7 @@ I pick a number from 1 to n. You have to guess which number I picked.  Every tim
 You call a pre-defined API self.guess(num: int), which returns three possible results:
 * -1: Your guess is higher than the number I picked (i.e. num > pick).
 * 1: Your guess is lower than the number I picked (i.e. num < pick).
-* 0: your guess is equal to the number I picked (i.e. num == pick). <br /><br />
+* 0: your guess is equal to the number I picked (i.e. num == pick).
+<br /><br />
 
 Return the number that I picked.
