@@ -8,8 +8,8 @@ class TestBinarySearch(unittest.TestCase):
         nums = binarySearch_cases.nums
         target = binarySearch_cases.target
         res = binarySearch_cases.res
+        case = binarySearch.Solution()
         for i in range(len(target)):
-            case = binarySearch.Solution()
             try: 
                 self.assertEqual(case.search(nums[i],target[i]),res[i])
             except AssertionError:
