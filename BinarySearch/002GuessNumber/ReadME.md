@@ -10,3 +10,4 @@ You call a pre-defined API self.guess(num: int), which returns three possible re
 <br /><br />
 
 Return the number that I picked.
+![guessN](https://github.com/radixon/UnitTest/assets/59415488/622696e6-ed60-4c66-b9cc-70c921926659)
