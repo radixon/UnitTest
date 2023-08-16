@@ -13,7 +13,7 @@ class TestFirstBadVersion(unittest.TestCase):
                 self.assertEqual(case.firstBadVersion(n[i]),bad[i])
             except AssertionError:
                 print("Failed Case")
-                print('n: ', n[i],'\t','bad: ',bad[i],'\n')
+                print('Case: ', i, '\t', 'n: ', n[i],'\t','bad: ',bad[i],'\n')
         
 
 if __name__ == '__main__':
