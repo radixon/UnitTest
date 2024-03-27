@@ -12,7 +12,7 @@ In undirected graphs when there is an edge connecting two vertices, the vertices
 Lets look at an example... <br/>
 ## LeetCode1557 
 
-Given a directed acyclic graph, with n vertices numbered from 0 to n-1, and an array edges where edges[i] = [from~i~, to~i~] represents a directed edge from node from~i~ to node to~i~.  Find the smallest set of vertices from which all nodes in the graph are reachable. It's guaranteed that a unique solution exists.  Notice that you can return the vertices in any order.
+Given a directed acyclic graph, with n vertices numbered from 0 to n-1, and an array edges where edges[i] = [from<sub>i<sub/>, to<sub>i<sub/>] represents a directed edge from node from<sub>i<sub/> to node to<sub>i<sub/>.  Find the smallest set of vertices from which all nodes in the graph are reachable. It's guaranteed that a unique solution exists.  Notice that you can return the vertices in any order.
 <br/><br/>
 
 Solution...
