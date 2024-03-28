@@ -21,13 +21,16 @@ If there is an indegree to a vertex, that vertex will be reached without manuall
 
 Correctness...
 1.  Each of the n vertices are assumed to not have edges, so the n vertices are initialized as not having an indegree.  
-2.  Iterate through the edges, and the indegree is set to true for all edges with an indegree.
-3.  Iterate through the n vertices, and store vertices without an indegree into results.
-
-See photo for code in Output.
+2.  Iterate through the edges, and increment the indegree for each to<sub>i</sub>.
+3.  Iterate through the n vertices, and store vertices without an indegree into results variable.
 
 
+photo for code in Output.
+See ![cppIndegree](https://github.com/radixon/UnitTest/assets/59415488/36029be2-0ebf-4101-8b2e-18853ece40ec)
+![pyIndegree](https://github.com/radixon/UnitTest/assets/59415488/7e62e65e-ab85-42a7-a580-cd6ec1b20af6)
+<br/>
 Resources... <br/>
+
 [1] Dasgupta, S., Papadimitriou, C.H., Vazirani, U.V. (2006). Algorithms New York, McGraw-Hill Education <br/>
 [2] Sedgewick, R., Wayne, K. (2011). Algorithms 4th ed. New York, Addison-Wesley <br/>
 [3] Cormen, T.H., Leiserson, C.E., Rivest, R.L., Stein, C. (2009) Introduction to algorithms 3rd ed. Massachusetts, MIT Press <br/>
