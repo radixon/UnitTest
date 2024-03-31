@@ -34,6 +34,7 @@ Sort the vector in ascending order.  Add the degree of the node multiplied by th
 return the results variable.
 <br /><br />
 
+![leetcode2285](https://github.com/radixon/UnitTest/assets/59415488/a01d148b-ef2a-45e0-aecf-50d84a5f743e)
 
 
 Resources
